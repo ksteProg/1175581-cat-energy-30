@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Карен Степанянц](https://up.htmlacademy.ru/adaptive/30/user/1175581).
-* Наставник: [Владислав Ермолаев](https://htmlacademy.ru/profile/id128353).
+* Наставник: [Виктория Никитина](https://htmlacademy.ru/profile/id1217273).
 
 ---
 
