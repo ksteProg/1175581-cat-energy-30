@@ -1,0 +1,41 @@
+.hero {
+  font-family: oswaldregular;
+  font-weight: 400;
+  color:  #FFFFFF;
+  position: relative;
+}
+.hero__wrapper {
+  width: 100%;
+  min-height: 302px;
+  height: auto;
+  background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../../images/index-background-desktop2.png");
+  margin-bottom: 137px;
+}
+.hero__title {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 27px;
+}
+
+.hero__description {
+  font-size: 14px;
+  line-height: 14px;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.hero__image {
+  position: absolute;
+  bottom: 43px;
+  left: 20px;;
+}
+
+.hero__button {
+  width: 192px;
+  margin: 0 auto;
+  padding: 10px 44px;
+}

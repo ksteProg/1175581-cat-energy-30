@@ -1,0 +1,33 @@
+.header-nav__toggle {
+  position: absolute;
+  right: 15px;
+  top: 19px;
+  background-color: #ffff;
+  border: none;
+  cursor: pointer;
+}
+
+.header-nav__toggle::before {
+  content: url('../../images/Logo_mobile.svg');
+}
+
+.header-nav__list {
+  font-family: oswaldregular;
+  font-size: 20px;
+  line-height: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.header-nav__item {
+  text-align: center;
+  border-top: 1px solid #E6E6E6;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header-nav__item a {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
