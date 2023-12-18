@@ -12,18 +12,24 @@
 }
 
 .header-nav__list {
-  font-family: oswaldregular;
-  font-size: 20px;
+  position: absolute;
+  top: 67px;
+  z-index: 10;
+   width: 100%;
+   padding: 0;
+  background: #FFF;
   line-height: 20px;
   list-style: none;
-  padding: 0;
+  font-family: oswald;
+  font-size: 20px;
+
 }
 
 .header-nav__item {
-  text-align: center;
-  border-top: 1px solid #E6E6E6;
   padding-top: 15px;
   padding-bottom: 15px;
+  text-align: center;
+  border-top: 1px solid #E6E6E6;
 }
 
 .header-nav__item a {

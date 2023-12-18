@@ -1,31 +1,32 @@
 .hero {
-  font-family: oswaldregular;
-  font-weight: 400;
-  color:  #FFFFFF;
   position: relative;
+  color:  #FFFFFF;
+  font-family: oswald;
+  font-weight: 400;
 }
 .hero__wrapper {
   width: 100%;
   min-height: 302px;
   height: auto;
-  background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../../images/index-background-desktop2.png");
   margin-bottom: 137px;
+  background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../../images/index-background-desktop2.png");
 }
 .hero__title {
+  padding-top: 27px;
   font-size: 36px;
   line-height: 36px;
-  font-weight: 400;
   text-align: center;
-  padding-top: 27px;
+  font-weight: 400;
 }
 
 .hero__description {
+  padding-top: 25px;
+  text-transform: uppercase;
+  text-align: center;
   font-size: 14px;
   line-height: 14px;
   font-style: normal;
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 25px;
+
 }
 
 .hero__image {

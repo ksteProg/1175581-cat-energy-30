@@ -1,0 +1,52 @@
+.features {
+  padding-top: 20px;
+}
+
+.features__title {
+  margin-bottom: 41px;
+  margin-right: 57px;
+  text-align: center;
+  color: #000;
+  font-family: oswald;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.features__list {
+
+}
+
+.features__item {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.features__item-description {
+  width: 200px;
+  color: #444;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.features__item--leaf::before {
+  content: url(../../images/Group_1.svg);
+}
+
+.features__item--powder::before {
+  content: url(../../images/Group_2.svg);
+}
+
+.features__item--replace::before {
+  content: url(../../images/Group_3.svg);
+}
+
+.features__item--time::before {
+  content: url(../../images/Group_4.svg);
+}
